@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 1.953vw;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* .card {
+  display: block;
+  width: 90%;
+  max-width: 45.391vw;
+  margin: 0 auto;
+  padding: 0.781vw;
+} */
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.391vw 0;
+}
+
+.video-strip {
+  height: 1.953vw;
+  overflow: hidden;
+  position: relative;
+  margin: 0 0.391vw;
+}
+
+.video-strip video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 0.391vw;
+}
+
+.small {
+  width: 30%;
+}
+
+.large {
+  width: 60%;
+}
+
+.text {
+  white-space: nowrap;
+  font-size: 3vw;
+}
